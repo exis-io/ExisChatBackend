@@ -5,7 +5,7 @@ var app = server.linkDomain('xs.demo.nick2.chat');
 
 server.onJoin = function() {
   app.subscribe('exisChat', function(msg){
-    console.log(Date.now().toLocaleString() + "[" + msg.username + "]: " + msg.msg);
+    console.log(msg.username + "[" + (new Date()).toLocaleString() + "]: " + msg.msg);
   });
 }
 
