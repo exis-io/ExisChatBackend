@@ -1,0 +1,8 @@
+{
+  "name": "exischat",
+  "version": "1.1.1",
+  "description": "ExisChat: An Ionic project",
+  "dependencies": {
+    "jsriffle": "^0.4.5"
+  }
+}
